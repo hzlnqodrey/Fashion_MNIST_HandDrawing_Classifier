@@ -2,7 +2,7 @@ const express = require('express')
 const path = require('path')
 
 const app = express();
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 4000
 
 app.use(express.static(path.join(__dirname, '4 - MNIST_drawing_classifier_CNN')))
 
