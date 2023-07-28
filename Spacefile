@@ -1,0 +1,9 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: 4-MNIST-drawing-classifier-CNN
+    src: ./
+    engine: nodejs16
+    primary: true
+    dev: node index.js
+    public: true
